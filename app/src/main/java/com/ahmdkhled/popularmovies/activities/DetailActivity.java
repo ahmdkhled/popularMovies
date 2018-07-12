@@ -31,7 +31,7 @@ public class DetailActivity extends AppCompatActivity {
 
     ImageView poster;
     ViewPager pager;
-    TabLayout tab;
+    public TabLayout tab;
     TextView vote;
     boolean movieExist;
     public FloatingActionButton fab;
