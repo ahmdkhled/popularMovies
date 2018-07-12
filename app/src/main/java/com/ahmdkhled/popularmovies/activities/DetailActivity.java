@@ -47,7 +47,7 @@ public class DetailActivity extends AppCompatActivity {
         vote=findViewById(R.id.vote);
         fab=findViewById(R.id.fab);
 
-
+        getSupportActionBar().setElevation(0);
 
         Intent intent=getIntent();
         movie=intent.getParcelableExtra("movie");
